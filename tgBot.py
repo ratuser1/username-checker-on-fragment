@@ -37,7 +37,7 @@ class Telegram:
             return None
 
         if 'h' not in response_json:
-            return 'свободен'
+            return 'available'
 
         h_data = response_json['h']
 
